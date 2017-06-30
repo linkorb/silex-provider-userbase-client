@@ -1,0 +1,22 @@
+{
+    "name": "linkorb/silex-provider-userbase-client",
+    "description": "Provides a Userbase UserProvider and an API Client.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "LinkORB",
+            "email": "engineering@linkorb.com",
+            "role": "Development"
+        }
+    ],
+    "require": {
+        "pimple/pimple": "^3.0",
+        "userbase/client": "^0.14.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LinkORB\\UserBaseClient\\": "lib/"
+        }
+    }
+}
