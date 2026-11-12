@@ -18,5 +18,8 @@
         "psr-4": {
             "LinkORB\\UserBaseClient\\": "lib/"
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
     }
 }
